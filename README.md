@@ -4,9 +4,11 @@ Mel Davey, 2023
 example usage:
 
 performs phase correction, calls bases, shows plots:
+
 python3 ./basecall.py -ie 0.09 -cf 0.065 -dr 0.02 -plots
 
 performs a grid-search over a hard-coded range of cf/ie/dr params, then performs base calling on best cf/ie/dr params
+
 python3 ./basecall.py -grid -plots
 
 model.py - models the physical system
